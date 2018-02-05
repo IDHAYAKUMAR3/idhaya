@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main()
+#include<conio.h>
+void main()
 {
   int a=15, b=160, i, temp, num, rem;
   printf("Enter two numbers(intervals): ");
@@ -20,5 +21,5 @@ int main()
           printf("%d ",i);
       }
   }
-  return 0;
+  getch();
 }
