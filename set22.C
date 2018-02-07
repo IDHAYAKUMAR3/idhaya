@@ -1,26 +1,20 @@
-#include<stdio.h>
+#include <stdio.h>
 #include<conio.h>
+ 
 void main()
 {
-	int a[10],i,j,k,n;
-	scanf("%d",&n);
-	for(i=0;i<n;i++)
-	{
-		scanf("%d",&a[i]);
-		
-	}
-	for(i=0;i<n-1;i++)
-	{
-		for(j=i+1;j<n;j++)
-		{
-			if(a[i]>a[j])
-			{
-			k=a[i];
-			a[i]=a[j];
-			a[j]=t;
-			}
-		}
-	}
-	printf("%d",a[n-1]);
-	getch();
+    int array[5], size, i, largest;
+    printf("\n Enter the size of the array: ");
+    scanf("%d", &size);
+    printf("\n Enter %d elements of  the array: ", size);
+    for (i = 0; i < size; i++)
+        scanf("%d", &array[i]);
+    largest = array[0];
+    for (i = 1; i < size; i++)
+    {
+        if (largest < array[i])
+            largest = array[i];
+    }
+    printf("\n largest element present in the given array is : %d", largest);
+    getch();
 }
