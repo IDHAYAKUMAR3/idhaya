@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
 int n,a[50],temp,i,j,k;
@@ -21,5 +22,5 @@ a[k]=temp;
 }
 }
 printf("%d",a[j/2]);
-return 0;
+getch();
 }
