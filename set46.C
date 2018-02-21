@@ -2,9 +2,9 @@
 #include<conio.h>
 int main()
 {
-int b;
-scanf("%d",&b);
-b++;
-printf("%d",b);
+int a;
+scanf("%d",&a);
+a++;
+printf("%d",a);
 getch();
 }
