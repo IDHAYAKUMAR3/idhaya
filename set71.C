@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
   char str1,str2;
@@ -13,5 +14,5 @@ int main()
   {
   printf("no!it is not a palindrome");
   }
-  return 0;
+  getch();
  }
