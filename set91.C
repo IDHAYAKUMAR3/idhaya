@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<conio.h>
-int main(void) 
+void main()
 {
 	int l,b,h;
 	scanf("%d %d %d",&l,&b,&h);
