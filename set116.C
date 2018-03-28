@@ -1,8 +1,12 @@
-#include <stdio.h>
-int main(void) 
+ #include<stdio.h>
+
+   #include<string.h>
+void main()
 {
-int n,k;
-scanf("%d %d",&n,&k);
-printf("%d%d",n,k);
-return 0;
+    char a[4],b[4];
+    printf("Enter two number");
+    scanf("%s %s",a,b);
+    strcat(a,b);
+    printf("%s",a);
+    return 0;
 }
